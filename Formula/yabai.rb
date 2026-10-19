@@ -9,8 +9,8 @@ class Yabai < Formula
   depends_on :macos
 
   def install
-    bin.install "archive/bin/yabai"
-    man1.install "archive/doc/yabai.1"
+    bin.install "bin/yabai"
+    man1.install "doc/yabai.1"
   end
 
   def caveats
