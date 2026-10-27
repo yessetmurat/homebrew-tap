@@ -1,9 +1,9 @@
 class Rhop < Formula
   desc "Light app launcher and calculator for macOS (Apple Silicon)"
   homepage "https://github.com/yessetmurat/rhop"
-  url "https://github.com/yessetmurat/rhop/releases/download/v0.1.0/rhop-v0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "1a8804f459f40dc39f4ce2f13618ecfb6cf1dc0a416774942d9b71a02b74425c"
+  url "https://github.com/yessetmurat/rhop/releases/download/v0.2.0/rhop-v0.2.0.tar.gz"
+  version "0.2.0"
+  sha256 "bb0c1cbfafcaa31fb1c40cc1f080e7df8060dcbc290491cf3fafa75965943f04"
   license "MIT"
 
   depends_on :macos
