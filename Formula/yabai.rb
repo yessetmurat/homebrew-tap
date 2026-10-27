@@ -1,9 +1,9 @@
 class Yabai < Formula
   desc "Tiling window manager for macOS (fork with focus fixes)"
   homepage "https://github.com/yessetmurat/yabai"
-  url "https://github.com/yessetmurat/yabai/releases/download/v7.1.25-fork.1/yabai-v7.1.25.tar.gz"
-  version "7.1.25-fork.1"
-  sha256 "6d37d24659d01d36829fca6b5c492bb62a0b6c19578cd3775d7a94b527967eca"
+  url "https://github.com/yessetmurat/yabai/releases/download/v7.1.25-fork.2/yabai-v7.1.25.tar.gz"
+  version "7.1.25-fork.2"
+  sha256 "87a6753c861fc8966b704d846b99e75b14f6b81a6f64988b9f83ccab548b0b7d"
   license "MIT"
 
   depends_on :macos
