@@ -3,7 +3,7 @@ class Rhop < Formula
   homepage "https://github.com/yessetmurat/rhop"
   url "https://github.com/yessetmurat/rhop/releases/download/v0.1.0/rhop-v0.1.0.tar.gz"
   version "0.1.0"
-  sha256 "2dff6eaab9cc86b176a5874b55c041304f30df0e71ba9fd3836d5973ae48f712"
+  sha256 "1a8804f459f40dc39f4ce2f13618ecfb6cf1dc0a416774942d9b71a02b74425c"
   license "MIT"
 
   depends_on :macos
