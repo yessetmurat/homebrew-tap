@@ -3,7 +3,7 @@ class Swhop < Formula
   homepage "https://github.com/yessetmurat/swhop"
   url "https://github.com/yessetmurat/swhop/releases/download/v0.1.0/swhop-v0.1.0.tar.gz"
   version "0.1.0"
-  sha256 ""
+  sha256 "ab67d854aa399601683837bc6277e97efd481f0cdb1d73c6c160dc30a99e45f8"
   license "MIT"
 
   depends_on :macos
