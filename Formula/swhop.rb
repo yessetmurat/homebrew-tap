@@ -13,10 +13,18 @@ class Swhop < Formula
     bin.install "bin/swhop"
   end
 
+  service do
+    run [opt_bin/"swhop"]
+    keep_alive crashed: true
+    process_type :interactive
+    log_path var/"log/swhop.log"
+    error_log_path var/"log/swhop.log"
+  end
+
   def caveats
     <<~EOS
-      Start it at login:
-        swhop --start-service
+      Start swhop now and at login:
+        brew services start swhop
       Turn off other cmd+space shortcuts first (Spotlight, Alfred).
       App sources are read from ~/.config/swhop/apps.
     EOS
