@@ -2,7 +2,6 @@ class Swwm < Formula
   desc "Tiling window manager and bar for macOS"
   homepage "https://github.com/yessetmurat/swwm"
   url "https://github.com/yessetmurat/swwm/releases/download/v0.2.0/swwm-0.2.0.tar.gz"
-  version "0.1.0"
   sha256 "29d67b845769acc3503398372ac3829037a84ea07225dce82378bd855592a5e7"
   license "MIT"
 
@@ -11,7 +10,7 @@ class Swwm < Formula
 
   def install
     bin.install "bin/swwm"
-    (share/"swwm").install "share/swwm/fonts"
+    (share/"swwm").install Dir["share/swwm/*"]
   end
 
   service do
@@ -27,6 +26,10 @@ class Swwm < Formula
       Start swwm now and at login:
         brew services start swwm
       Then allow swwm in System Settings > Privacy & Security > Accessibility.
+
+      Optional, removes window shadows (needs SIP partly disabled):
+        sudo swwm --install-shadows
+      Re-run it after upgrading swwm.
     EOS
   end
 
