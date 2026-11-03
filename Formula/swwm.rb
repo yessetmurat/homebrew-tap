@@ -27,9 +27,10 @@ class Swwm < Formula
         brew services start swwm
       Then allow swwm in System Settings > Privacy & Security > Accessibility.
 
-      Optional, removes window shadows (needs SIP partly disabled):
-        sudo swwm --install-shadows
-      Re-run it after upgrading swwm.
+      Optional Dock module: removes window shadows and keeps floating windows
+      above tiled ones (needs SIP partly disabled):
+        sudo swwm --install-dock-module
+      Re-run it after upgrading swwm, then killall Dock.
     EOS
   end
 
