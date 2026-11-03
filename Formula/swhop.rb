@@ -26,7 +26,7 @@ class Swhop < Formula
       Start swhop now and at login:
         brew services start swhop
       Turn off other cmd+space shortcuts first (Spotlight, Alfred).
-      App sources are read from ~/.config/swhop/apps.
+      Settings are read from ~/.config/swhop/swhop.toml.
     EOS
   end
 
