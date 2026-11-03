@@ -1,9 +1,9 @@
 class Swhop < Formula
   desc "Light app launcher and calculator for macOS (Apple Silicon)"
   homepage "https://github.com/yessetmurat/swhop"
-  url "https://github.com/yessetmurat/swhop/releases/download/v0.3.1/swhop-v0.3.1.tar.gz"
-  version "0.3.1"
-  sha256 "a61c866b230b1c3e6692575efb2d483874848c4dedaf6abd48ad6314d68f1038"
+  url "https://github.com/yessetmurat/swhop/releases/download/v0.4.0/swhop-v0.4.0.tar.gz"
+  version "0.4.0"
+  sha256 "588cab1fddaee23bfa6ef54bc98a8365cd77d6885fbb7af4c66f51cc0333faa6"
   license "MIT"
 
   depends_on :macos
