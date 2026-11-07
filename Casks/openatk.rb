@@ -7,7 +7,7 @@ cask "openatk" do
   desc "Light native settings app for ATK mice"
   homepage "https://github.com/yessetmurat/openatk"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "openatk.app"
 
