@@ -1,8 +1,8 @@
 cask "menutop" do
-  version "0.1.2"
-  sha256 "7f5d16ec0519ea1bb38cc72d94aebdc047dc703868deb482ad0188bb57de5923"
+  version "0.1.3"
+  sha256 "6083418d2eb17228a9752d9c01f06f7d6dfdceb4db31598b5001f2ec1171a316"
 
-  url "https://github.com/yessetmurat/menutop/releases/download/v0.1.2/menutop-0.1.2.zip"
+  url "https://github.com/yessetmurat/menutop/releases/download/v0.1.3/menutop-0.1.3.zip"
   name "Menutop"
   desc "Menu bar monitor for Apple Silicon CPU, GPU, memory, power and temperature"
   homepage "https://github.com/yessetmurat/menutop"
