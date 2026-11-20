@@ -1,8 +1,8 @@
 class Swwm < Formula
   desc "Tiling window manager and bar for macOS"
   homepage "https://github.com/yessetmurat/swwm"
-  url "https://github.com/yessetmurat/swwm/releases/download/v0.5.6/swwm-0.5.6.tar.gz"
-  sha256 "245c5481737d07bc6a25f18d669a117e9c43f7e9d5eae61e6b36f9f21399a26f"
+  url "https://github.com/yessetmurat/swwm/releases/download/v0.5.7/swwm-0.5.7.tar.gz"
+  sha256 "a188609de3f13289f50456c1c020aec06ac7c7c5507b48129062e910e02f8af7"
   license "MIT"
 
   depends_on arch: :arm64
